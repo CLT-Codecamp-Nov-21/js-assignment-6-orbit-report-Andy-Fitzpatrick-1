@@ -1,3 +1,5 @@
+<app-orbit-list [satellites]="displayList"></app-orbit-list>
+
 <h1>Orbit Report</h1>
 
 <div class="search-form">
@@ -5,6 +7,9 @@
 	<button (click)="search(searchTerm.value);">Search</button>
 </div>
 
+
 <app-orbit-counts [satellites]="displayList"></app-orbit-counts>
 
+
 <!-- TODO 1: add list component to app HTML -->
+<!-- done at top -->
